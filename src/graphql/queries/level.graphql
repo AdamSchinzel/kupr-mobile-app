@@ -1,0 +1,8 @@
+query Level($levelNum: Int!, $levelDif: String!) {
+  kupr_difficulty_levels_aggregate(where: { level: { _eq: $levelNum }, difficulty: { _eq: $levelDif } }) {
+    nodes {
+      id
+      file
+    }
+  }
+}

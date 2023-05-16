@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "KUPR",
+    "description": "KUPR",
+    "slug": "KUPR",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/22817b9c-7a54-4a6c-aeb6-4a0fdc11ea09"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "barStyle": "default"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Aplikace KUPR žádá přístup k fotkám.",
+          "cameraPermission": "Aplikace ESL servis žádá přístup ke kameře."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "22817b9c-7a54-4a6c-aeb6-4a0fdc11ea09"
+      }
+    },
+    "owner": "admindecentree",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}

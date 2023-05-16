@@ -1,0 +1,5 @@
+mutation AddPost($title: String!, $description: String!, $file: uuid!) {
+  insert_kupr_posts_one(object: { title: $title, description: $description, file: $file }) {
+    title
+  }
+}

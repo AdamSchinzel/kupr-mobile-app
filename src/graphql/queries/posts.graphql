@@ -1,0 +1,10 @@
+query Posts {
+  kupr_posts_aggregate(order_by: { created_at: desc }) {
+    nodes {
+      title
+      file
+      description
+      created_at
+    }
+  }
+}

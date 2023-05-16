@@ -1,0 +1,18 @@
+overwrite: true
+config:
+  withHooks: true
+schema:
+  - https://hasura.esl.staging.decentree.com/v1/graphql:
+      headers:
+        content-type: application/json
+        x-hasura-admin-secret: ${ADMIN_SECRET}
+documents: "**/*.graphql"
+generates:
+  src/graphql/index.tsx:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+  ./graphql.schema.json:
+    plugins:
+      - "introspection"
