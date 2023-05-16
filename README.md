@@ -26,7 +26,7 @@ npm start
 ## Folder structure
 
 ```
-template-expo/
+kupr-mobile-app/
 ├── .expo
 ├── expo-shared
 ├── assets (images etc.)
