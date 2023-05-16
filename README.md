@@ -65,6 +65,3 @@ If you want to preview your app directly in your mobile device, then install Exp
 
   - [Prettier](https://prettier.io/)
   - [ESLint](https://eslint.org/)
-
-- Other
-  - [Sentry](https://sentry.io/welcome/)
